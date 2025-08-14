@@ -55,8 +55,23 @@ input:focus {
   font-size: 11px;
 }
 
-a {
+.register-link {
   text-decoration: none;
+  color: #40acff;
+  transition: 0.3s all;
+}
+
+.register-link:hover {
+  color: white;
+}
+
+.forgot-link {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s all;
+}
+
+.forgot-link:hover {
   color: #40acff;
 }
 
